@@ -108,7 +108,7 @@ document.getElementById('submitButton').addEventListener('click', function() {
 
         const descriptionInput = choiceGroup.querySelector('input[name="Description[]"]');
         if (descriptionInput) {
-            outputHtml += `<p>&nbsp;&nbsp;<strong>Description:</strong> ${descriptionInput.value}</p>`;
+            outputHtml += `<p>&nbsp;&nbsp;<strong>DESCRIPTION:</strong> ${descriptionInput.value}</p><br></br>`;
         }
     });
 
