@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Input Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Input Section -->
+        <div class="container">
+            <h1>Input Form</h1>
+            <form id="inputForm">
+                <label for="input1">User Story:</label>
+                <input type="text" id="input1" name="UserStory" placeholder="Enter User Story">
+                
+                <!-- Container to dynamically add both rules and choices -->
+                <div id="rules-choices-container">
+                    <!-- Dynamic fields will be added here -->
+                </div>
+
+                <!-- Buttons to add more rules and choices -->
+                <button type="button" id="addRuleButton">Add Rule</button>
+                <button type="button" id="addChoiceButton">Add Choice</button>
+
+                <button type="button" id="submitButton">Submit</button>
+            </form>
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-container">
+            <h1>Output</h1>
+            <div id="output" class="output">
+                <!-- Results will appear here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
